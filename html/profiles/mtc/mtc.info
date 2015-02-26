@@ -38,6 +38,10 @@ dependencies[] = node_reference
 ;dependencies[] = location_cck
 dependencies[] = field_group
 ;dependencies[] = admin
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_jcarousel
+dependencies[] = views_content
+dependencies[] = flexslider
 
 ; Required modules (Contrib) from Spark
 dependencies[] = breakpoints
