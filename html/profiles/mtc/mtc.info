@@ -41,6 +41,7 @@ dependencies[] = field_group
 dependencies[] = views_slideshow
 dependencies[] = views_slideshow_jcarousel
 dependencies[] = views_content
+dependencies[] = flexslider
 
 ; Required modules (Contrib) from Spark
 dependencies[] = breakpoints
