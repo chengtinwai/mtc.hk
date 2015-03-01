@@ -94,6 +94,27 @@ function mtc_homepage_default_page_manager_pages() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
+    $pane->pid = 'new-b650eb8e-fec2-4615-b18e-9ed0358357a6';
+    $pane->panel = 'body';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'frontpage_feature_product-panel_pane_1';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '<none>',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'b650eb8e-fec2-4615-b18e-9ed0358357a6';
+    $display->content['new-b650eb8e-fec2-4615-b18e-9ed0358357a6'] = $pane;
+    $display->panels['body'][0] = 'new-b650eb8e-fec2-4615-b18e-9ed0358357a6';
+    $pane = new stdClass();
     $pane->pid = 'new-15cf8162-48f8-4c91-a7f1-4c92ac7a7261';
     $pane->panel = 'header_a';
     $pane->type = 'block';
