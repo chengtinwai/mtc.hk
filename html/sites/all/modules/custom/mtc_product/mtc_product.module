@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Product feature.
+ */
+
+include_once 'mtc_product.features.inc';
