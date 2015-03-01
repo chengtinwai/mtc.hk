@@ -42,6 +42,9 @@ dependencies[] = views_slideshow
 dependencies[] = views_slideshow_jcarousel
 dependencies[] = views_content
 dependencies[] = flexslider
+dependencies[] = fe_block
+dependencies[] = uuid
+dependencies[] = uuid_features
 
 ; Required modules (Contrib) from Spark
 dependencies[] = breakpoints
