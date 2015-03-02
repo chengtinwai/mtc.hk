@@ -39,3 +39,5 @@ features[variable][] = menu_parent_product
 features[variable][] = node_options_product
 features[variable][] = node_preview_product
 features[variable][] = node_submitted_product
+features[variable][] = pathauto_node_product_pattern
+features[variable][] = pathauto_taxonomy_term_product_type_pattern

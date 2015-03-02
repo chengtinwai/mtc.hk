@@ -1,0 +1,14 @@
+name = Main Menu
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = mtc_main_menu
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_links][] = main-menu_aesthetoc-product:taxonomy/term/7
+features[menu_links][] = main-menu_cosmetics:taxonomy/term/5
+features[menu_links][] = main-menu_dermafiller:taxonomy/term/4
+features[menu_links][] = main-menu_home:<front>
+features[menu_links][] = main-menu_lasers:taxonomy/term/6
