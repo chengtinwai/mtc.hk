@@ -47,7 +47,7 @@ dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = token
 dependencies[] = pathauto
-dependencies[] = path_breadcrumb
+dependencies[] = path_breadcrumbs
 
 
 ; Required modules (Contrib) from Spark
@@ -66,12 +66,12 @@ dependencies[] = views_ui
 
 ; Required projects (Sparkish)
 dependencies[] = ckeditor
-dependencies[] = quickedit
+;dependencies[] = quickedit
 dependencies[] = gridbuilder
 dependencies[] = layout
 dependencies[] = navbar
 dependencies[] = responsive_preview
-dependencies[] = spark_demo
+;dependencies[] = spark_demo
 
 
 ; Information added by Drupal.org packaging script on 2014-11-19
