@@ -12,6 +12,70 @@ function mtc_homepage_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['search-form'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'form',
+    'module' => 'search',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => -1,
+      ),
+      'mtc_theme' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'mtc_theme',
+        'weight' => -9,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => -10,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['system-navigation'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'navigation',
+    'module' => 'system',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'mtc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'mtc_theme',
+        'weight' => -8,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['system-powered-by'] = array(
     'cache' => -1,
     'custom' => 0,
