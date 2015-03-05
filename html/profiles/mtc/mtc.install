@@ -450,7 +450,7 @@ function mtc_install() {
   variable_set('node_admin_theme', '1');
 
   // enabling module at the end of the module process otherwise will throw error
-  module_enable(array('mtc_theme_settings','mtc_frontpage_slideshow','mtc_homepage','mtc_main_menu','mtc_product'));
+  module_enable(array('mtc_theme_settings','mtc_frontpage_slideshow','mtc_product','mtc_service','mtc_homepage','mtc_product','mtc_service','mtc_main_menu'));
   
 }
 
