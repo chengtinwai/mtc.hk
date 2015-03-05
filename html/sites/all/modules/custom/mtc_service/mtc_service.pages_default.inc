@@ -1,25 +1,25 @@
 <?php
 /**
  * @file
- * mtc_product.pages_default.inc
+ * mtc_service.pages_default.inc
  */
 
 /**
  * Implements hook_default_page_manager_handlers().
  */
-function mtc_product_default_page_manager_handlers() {
+function mtc_service_default_page_manager_handlers() {
   $export = array();
 
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'node_view__product';
+  $handler->name = 'node_view__service';
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = 1;
   $handler->conf = array(
-    'title' => 'Product',
+    'title' => 'Service',
     'no_blocks' => 1,
     'pipeline' => 'ipe',
     'body_classes_to_remove' => '',
@@ -28,14 +28,14 @@ function mtc_product_default_page_manager_handlers() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
-    'name' => 'product',
+    'name' => 'service',
     'access' => array(
       'plugins' => array(
         0 => array(
           'name' => 'node_type',
           'settings' => array(
             'type' => array(
-              'product' => 'product',
+              'service' => 'service',
             ),
           ),
           'context' => 'argument_entity_id:node_1',
@@ -89,11 +89,11 @@ function mtc_product_default_page_manager_handlers() {
   );
   $display->cache = array();
   $display->title = '';
-  $display->uuid = '9d688dab-2798-405e-85a9-a832fb2a451e';
+  $display->uuid = '90d08091-5cfe-4033-802f-0649f777e1f4';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-ae131552-a819-49c1-a151-e0dbff50d664';
+    $pane->pid = 'new-85f16be4-8bfe-4f87-82dd-d066fc2e5117';
     $pane->panel = 'footer_a';
     $pane->type = 'panels_mini';
     $pane->subtype = 'footer';
@@ -110,13 +110,13 @@ function mtc_product_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = 'ae131552-a819-49c1-a151-e0dbff50d664';
-    $display->content['new-ae131552-a819-49c1-a151-e0dbff50d664'] = $pane;
-    $display->panels['footer_a'][0] = 'new-ae131552-a819-49c1-a151-e0dbff50d664';
+    $pane->uuid = '85f16be4-8bfe-4f87-82dd-d066fc2e5117';
+    $display->content['new-85f16be4-8bfe-4f87-82dd-d066fc2e5117'] = $pane;
+    $display->panels['footer_a'][0] = 'new-85f16be4-8bfe-4f87-82dd-d066fc2e5117';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
-  $export['node_view__product'] = $handler;
+  $export['node_view__service'] = $handler;
 
   return $export;
 }
