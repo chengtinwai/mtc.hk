@@ -48,7 +48,8 @@ dependencies[] = token
 dependencies[] = pathauto
 dependencies[] = path_breadcrumbs
 dependencies[] = admin_menu
-
+dependencies[] = fieldable_panel_panes
+dependencies[] = diff
 
 ; Required modules (Contrib) from Spark
 dependencies[] = breakpoints

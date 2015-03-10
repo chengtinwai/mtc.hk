@@ -87,12 +87,33 @@ function mtc_main_menu_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_lasers:taxonomy/term/3
+  $menu_links['main-menu_lasers:taxonomy/term/3'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'taxonomy/term/3',
+    'router_path' => 'taxonomy/term/%',
+    'link_title' => 'Lasers',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_lasers:taxonomy/term/3',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Translatables
   // Included for use with string extractors like potx.
   t('Aesthetic Product');
   t('Cosmetics');
   t('Dermafiller');
   t('Home');
+  t('Lasers');
 
 
   return $menu_links;

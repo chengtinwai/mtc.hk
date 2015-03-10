@@ -11,3 +11,4 @@ features[menu_links][] = main-menu_aesthetic-product:taxonomy/term/4
 features[menu_links][] = main-menu_cosmetics:taxonomy/term/2
 features[menu_links][] = main-menu_dermafiller:taxonomy/term/1
 features[menu_links][] = main-menu_home:<front>
+features[menu_links][] = main-menu_lasers:taxonomy/term/3
