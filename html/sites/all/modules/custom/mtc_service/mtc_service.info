@@ -30,3 +30,4 @@ features[variable][] = menu_parent_service
 features[variable][] = node_options_service
 features[variable][] = node_preview_service
 features[variable][] = node_submitted_service
+features[variable][] = pathauto_node_service_pattern
