@@ -1,0 +1,13 @@
+name = Footer
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = mtc_footer
+dependencies[] = fe_block
+features[fe_block_boxes][] = footer_contact_us
+features[fe_block_boxes][] = footer_our_product
+features[fe_block_boxes][] = footer_our_services
+features[fe_block_settings][] = block-footer_contact_us
+features[fe_block_settings][] = block-footer_our_product
+features[fe_block_settings][] = block-footer_our_services
+features[features_api][] = api:2
