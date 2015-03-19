@@ -1,3 +1,6 @@
+/*import google font*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 /**
  * @file
  * Normalize.css is intended to be used as an alternative to CSS resets.
@@ -100,16 +103,17 @@ audio:not([controls]) {
  *    `em` units.
  */
 html {
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif; /* 1 */
+  /*font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;*/ /* 1 */
+  font-family: 'Open Sans', sans-serif;
 
   /* Delete all but one of the following font-size declarations: */
 
   /* Use a 12px base font size. 16px x 75% = 12px */
-  font-size: 75%; /* 3 */
+  /*font-size: 75%;*/ /* 3 */
   /* Use a 14px base font size. 16px x .875 = 14px */
   font-size: 87.5%; /* 3 */
   /* Use a 16px base font size. */
-  font-size: 100%; /* 3 */
+  /*font-size: 100%;*/ /* 3 */
 
   -ms-text-size-adjust: 100%;     /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -159,13 +163,19 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+	color: #267bc0;
+	text-decoration: none;
 }
 a:visited {
+	color: #267bc0;
 }
 a:hover,
 a:focus {
+	color: #267bc0;
+	text-decoration: underline;
 }
 a:active {
+	color: #267bc0;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
@@ -192,7 +202,7 @@ a:hover {
 /* Set 1 unit of vertical rhythm on the top and bottom margin. */
 p,
 pre {
-  margin: 1.5em 0;
+  margin: 0 0 1.5em;
 }
 blockquote {
   /* Also indent the quote on both sides. */
@@ -208,38 +218,43 @@ h1 {
   font-size: 2em;
   line-height: 1.5em; /* 3rem / 2em = 1.5em */
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 0.75em; /* 1.5rem / 2em = .75em */
+  /*margin-top: 0.75em;*/ /* 1.5rem / 2em = .75em */
   margin-bottom: 0.75em;
 }
 h2 {
   font-size: 1.5em;
   line-height: 2em; /* 3rem / 1.5em = 2em */
-  margin-top: 1em; /* 1.5rem / 1.5em = 1em */
+  /*margin-top: 1em;*/ /* 1.5rem / 1.5em = 1em */
   margin-bottom: 1em;
 }
 h3 {
   font-size: 1.17em;
   line-height: 1.28205em; /* 1.5rem / 1.17em = 1.28205em */
-  margin-top: 1.28205em;
+  /*margin-top: 1.28205em;*/
   margin-bottom: 1.28205em;
 }
 h4 {
   font-size: 1em;
   line-height: 1.5em; /* 1.5rem / 1em = 1.5em */
-  margin-top: 1.5em;
+  /*margin-top: 1.5em;*/
   margin-bottom: 1.5em;
 }
 h5 {
   font-size: 0.83em;
   line-height: 1.80723em; /* 1.5rem / 0.83em = 1.80723em */
-  margin-top: 1.80723em;
+  /*margin-top: 1.80723em;*/
   margin-bottom: 1.80723em;
 }
 h6 {
   font-size: 0.67em;
   line-height: 2.23881em; /* 1.5rem / 0.67em = 2.23881em */
-  margin-top: 2.23881em;
+  /*margin-top: 2.23881em;*/
   margin-bottom: 2.23881em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0; /*remove top margin*/
+	font-weight: 300;
 }
 
 /* Address styling not present in IE 8/9, Safari 5, and Chrome. */
