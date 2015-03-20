@@ -14,6 +14,9 @@
 
 /* Component (SMACSS module) rules */
 @import "components/misc.css";
+@import "components/pages.css";
+@import "components/blocks.css";
+@import "components/nodes.css";
 /* Optionally, add your own components here. */
 @import "print.css";
 
