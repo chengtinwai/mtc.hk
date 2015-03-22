@@ -220,7 +220,7 @@ function mtc_homepage_views_default_views() {
   $handler->display->display_options['fields']['field_slideshow_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_slideshow_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_slideshow_image']['settings'] = array(
-    'image_style' => 'large',
+    'image_style' => '',
     'image_link' => '',
   );
   /* Sort criterion: Content: Post date */

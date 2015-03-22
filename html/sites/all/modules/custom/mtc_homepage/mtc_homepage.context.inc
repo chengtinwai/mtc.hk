@@ -29,7 +29,7 @@ function mtc_homepage_context_default_contexts() {
         'views-frontpage_slideshow-block_1' => array(
           'module' => 'views',
           'delta' => 'frontpage_slideshow-block_1',
-          'region' => 'content',
+          'region' => 'highlighted',
           'weight' => '-10',
         ),
         'views-26c51822241d1958ea8a91e7c3cdebe3' => array(
