@@ -47,6 +47,7 @@ dependencies[] = uuid_features
 dependencies[] = token
 dependencies[] = pathauto
 dependencies[] = path_breadcrumbs
+dependencies[] = path_breadcrumbs_ui
 dependencies[] = admin_menu
 ;dependencies[] = fieldable_panels_panes
 dependencies[] = diff
