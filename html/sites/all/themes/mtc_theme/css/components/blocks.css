@@ -4,7 +4,8 @@
 
 
 /* home slider */
-
+/* footer menu */
+/* media queries */
 
 
 
@@ -39,3 +40,51 @@
 	background-image: url(../../images/icon-arrow-R.png);
 	background-position: center center;
 }
+
+
+
+
+/* ==================== */
+/* footer menu */
+/* ==================== */
+
+.region-footer {
+	overflow: hidden;
+}
+
+.region-footer .block {
+	font-size: 13px;
+	color: #c0e1fc;
+}
+
+.region-footer .block .block__title {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+
+
+/* ==================== */
+/* media queries */
+/* ==================== */
+
+
+/* tablet or above style */
+
+@media screen and (min-width: 768px) {
+	
+	/* footer */
+
+	.region-footer {
+		padding: 45px 0;
+	}
+
+	.region-footer .block {
+		float: left;
+		padding: 0 5px;
+		width: 33.33%;
+	}
+}
+
+
