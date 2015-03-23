@@ -14,6 +14,7 @@ function mtc_footer_default_fe_block_settings() {
 
   $export['block-footer_contact_us'] = array(
     'cache' => -1,
+    'css_class' => 'block-footer-menu',
     'custom' => 0,
     'machine_name' => 'footer_contact_us',
     'module' => 'block',
@@ -46,6 +47,7 @@ function mtc_footer_default_fe_block_settings() {
 
   $export['block-footer_our_product'] = array(
     'cache' => -1,
+    'css_class' => 'block-footer-menu',
     'custom' => 0,
     'machine_name' => 'footer_our_product',
     'module' => 'block',
@@ -78,6 +80,7 @@ function mtc_footer_default_fe_block_settings() {
 
   $export['block-footer_our_services'] = array(
     'cache' => -1,
+    'css_class' => 'block-footer-menu',
     'custom' => 0,
     'machine_name' => 'footer_our_services',
     'module' => 'block',

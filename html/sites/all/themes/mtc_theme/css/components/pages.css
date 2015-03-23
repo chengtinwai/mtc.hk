@@ -5,6 +5,7 @@
 
 /* common */
 
+/* media queries */
 
 
 
@@ -14,10 +15,20 @@
 /* ==================== */
 
 .header-inner,
+.main-inner,
 .footer-inner {
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.main-inner {
+	padding: 10px;
+}
+
+#main {
+	background: transparent url(../../images/bg-gradient.jpg) center top no-repeat;
+	background-size: 100% auto;
 }
 
 .region-footer {
@@ -50,6 +61,26 @@
 .block-menu ul li a {
 	color: #58595b;
 	padding: 5px 10px;
+}
+
+
+
+
+/* ==================== */
+/* media queries */
+/* ==================== */
+
+
+/* tablet or above style */
+
+@media screen and (min-width: 768px) {
+	
+	/* product detail */
+
+	.main-inner {
+		padding-top: 30px;
+	}
+	
 }
 
 

@@ -1,3 +1,75 @@
 /**
  * style for nodes
  */
+
+/* front */
+/* product detail */
+
+/* media queries */
+
+
+
+
+/* ==================== */
+/* front */
+/* ==================== */
+
+.front .main-inner {
+	max-width: none;
+}
+
+.front #main {
+	background-image: none;
+	
+}
+
+
+
+/* ==================== */
+/* product detail */
+/* ==================== */
+
+.node-product .field-name-field-image,
+.node-product .field-name-field-detail-images {
+	text-align: center;
+}
+.node-product .field-name-field-detail-images img {
+	vertical-align: top;
+}
+
+.node-product .field-name-body {
+	overflow: hidden;
+}
+
+.node-type-product .page__title {
+	color: #267bc0;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* ==================== */
+/* media queries */
+/* ==================== */
+
+
+/* tablet or above style */
+
+@media screen and (min-width: 768px) {
+	
+	/* product detail */
+	
+	.field-name-field-detail-images .field-item {
+		float: left;
+		margin-right: 60px;
+	}
+
+	.node-type-product .page__title {
+		font-size: 36px;
+	}	
+	
+}
