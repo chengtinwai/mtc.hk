@@ -26,6 +26,14 @@
 	padding: 10px;
 }
 
+.header__logo {
+	float: left;
+}
+
+.header__region {
+	clear: none;
+}
+
 #main {
 	background: transparent url(../../images/bg-gradient.jpg) center top no-repeat;
 	background-size: 100% auto;

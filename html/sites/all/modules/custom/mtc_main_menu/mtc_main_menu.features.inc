@@ -12,3 +12,27 @@ function mtc_main_menu_ctools_plugin_api($module = NULL, $api = NULL) {
     return array("version" => "3");
   }
 }
+
+/**
+ * Implements hook_image_default_styles().
+ */
+function mtc_main_menu_image_default_styles() {
+  $styles = array();
+
+  // Exported image style: product_image_front.
+  $styles['product_image_front'] = array(
+    'label' => 'Product_image_front',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 400,
+          'height' => 220,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  return $styles;
+}

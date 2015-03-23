@@ -17,6 +17,7 @@
 
 .flexslider {
 	padding: 0;
+	margin: 0 -10px;
 	border: none;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
