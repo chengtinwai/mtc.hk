@@ -44,6 +44,12 @@ function mtc_homepage_context_default_contexts() {
           'region' => 'content',
           'weight' => '-9',
         ),
+        'webform-client-block-5' => array(
+          'module' => 'webform',
+          'delta' => 'client-block-5',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
