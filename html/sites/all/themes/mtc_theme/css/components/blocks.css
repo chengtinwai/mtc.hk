@@ -4,6 +4,7 @@
 
 
 /* home slider */
+/* front product/services */
 /* footer menu */
 
 /* media queries */
@@ -44,6 +45,16 @@
 }
 
 
+/* ==================== */
+/* front product/services */
+/* ==================== */
+
+.block-front-product,
+.block-front-services {
+	text-align: center;
+}
+
+
 
 
 /* ==================== */
@@ -76,6 +87,23 @@
 /* tablet or above style */
 
 @media screen and (min-width: 768px) {
+
+	/* front product/services */
+
+	.block-front-product,
+	.block-front-services {
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		text-align: left;
+	}
+
+	.block-front-product .views-field-field-image,
+	.block-front-services .views-field-field-image {
+		float: left;
+		margin-right: 40px;
+	}
 	
 	/* footer */
 
