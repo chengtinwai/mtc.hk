@@ -63,9 +63,10 @@
         <?php print $breadcrumb; ?>
         <a id="main-content"></a>
         <?php print render($title_prefix); ?>
-        <?php if ($title): ?>
+        <?php if ($title && !$is_front): ?>
           <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-        <?php endif; ?>
+		<?php endif; ?>
+
         <?php print render($title_suffix); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
