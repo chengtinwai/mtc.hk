@@ -14,7 +14,7 @@ function mtc_main_menu_default_fe_block_settings() {
 
   $export['system-main-menu'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'block-main-nav',
     'custom' => 0,
     'delta' => 'main-menu',
     'module' => 'system',
