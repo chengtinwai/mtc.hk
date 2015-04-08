@@ -59,19 +59,19 @@ body.admin-menu {
 	margin-top: 20px;
 }
 
-.block-main-nav ul,
-.block-main-nav ul li {
+.block-main-nav .menu,
+.block-main-nav .menu .menu__item {
 	list-style: none;
 	list-style-image: none;
 }
 
-.block-main-nav ul {
+.block-main-nav .menu {
 	padding: 0;
 	margin: 0;
 	text-align: right;
 }
 
-.block-main-nav ul li {
+.block-main-nav .menu .menu__item {
 	color: #58595b;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -79,7 +79,7 @@ body.admin-menu {
 	margin: 0 5px;
 }
 
-.block-main-nav ul li a {
+.block-main-nav .menu .menu__item a {
 	color: #58595b;
 	padding: 5px 10px;
 }

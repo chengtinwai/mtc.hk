@@ -5,6 +5,7 @@
 
 /* home slider */
 /* front product/services */
+/* contact pull */
 /* footer menu */
 
 /* media queries */
@@ -55,6 +56,17 @@
 }
 
 
+
+
+/* ==================== */
+/* contact pull */
+/* ==================== */
+
+.block-pull-panel {
+	position: fixed;
+	right: 0;
+	top: 75%;
+}
 
 
 /* ==================== */
