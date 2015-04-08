@@ -54,6 +54,8 @@ dependencies[] = diff
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = context_layouts
+dependencies[] = stickynav
+dependencies[] = responsive_menu
 
 ; Required modules (Contrib) from Spark
 dependencies[] = breakpoints
