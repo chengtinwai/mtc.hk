@@ -55,6 +55,14 @@
 	text-align: center;
 }
 
+.block-front-product .views-row {
+	clear: both;
+}
+
+.block-front-product .views-field-title {
+	font-size: 24px;
+}
+
 
 
 
@@ -111,8 +119,11 @@
 		text-align: left;
 	}
 
-	.block-front-product .views-field-field-image,
-	.block-front-services .views-field-field-image {
+	.block-front-product .views-field-title {
+		padding-top: 30px;
+	}
+
+	.block-front-product .views-field-field-image {
 		float: left;
 		margin-right: 40px;
 	}
