@@ -32,6 +32,12 @@ function mtc_homepage_context_default_contexts() {
           'region' => 'highlighted',
           'weight' => '-10',
         ),
+        'block-4' => array(
+          'module' => 'block',
+          'delta' => '4',
+          'region' => 'highlighted',
+          'weight' => '-9',
+        ),
         'views-26c51822241d1958ea8a91e7c3cdebe3' => array(
           'module' => 'views',
           'delta' => '26c51822241d1958ea8a91e7c3cdebe3',
@@ -43,12 +49,6 @@ function mtc_homepage_context_default_contexts() {
           'delta' => 'c0ffe394d9692830e16635df3d1c6b69',
           'region' => 'content',
           'weight' => '-9',
-        ),
-        'webform-client-block-5' => array(
-          'module' => 'webform',
-          'delta' => 'client-block-5',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
         ),
       ),
     ),

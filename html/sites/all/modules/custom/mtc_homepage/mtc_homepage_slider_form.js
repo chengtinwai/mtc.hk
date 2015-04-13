@@ -4,7 +4,7 @@
 
       //Begin my code
         $(".trigger").click(function(){
-        	$("#block-webform-client-block-5").toggle("fast");
+        	$("#block-block-5").toggle("fast");
 	        $(this).toggleClass("active");
 	        return false;
 	    });
