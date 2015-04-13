@@ -14,6 +14,7 @@ dependencies[] = strongarm
 features[context][] = sitewide
 features[ctools][] = context:context:3
 features[ctools][] = strongarm:strongarm:1
+features[fe_block_boxes][] = feedback_block
 features[fe_block_settings][] = system-main-menu
 features[features_api][] = api:2
 features[image][] = product_image_front

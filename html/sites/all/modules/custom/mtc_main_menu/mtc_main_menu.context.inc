@@ -38,6 +38,12 @@ function mtc_main_menu_context_default_contexts() {
           'region' => 'header',
           'weight' => '-9',
         ),
+        'block-5' => array(
+          'module' => 'block',
+          'delta' => '5',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
         'block-1' => array(
           'module' => 'block',
           'delta' => '1',
