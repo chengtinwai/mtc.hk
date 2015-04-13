@@ -45,38 +45,5 @@ function mtc_main_menu_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['webform-client-block-5'] = array(
-    'cache' => -1,
-    'css_class' => 'block-pull-panel',
-    'custom' => 0,
-    'delta' => 'client-block-5',
-    'module' => 'webform',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'mtc_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'mtc_theme',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   return $export;
 }
