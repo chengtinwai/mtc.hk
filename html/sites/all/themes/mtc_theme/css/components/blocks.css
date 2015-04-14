@@ -71,9 +71,12 @@
 /* ==================== */
 
 .block-pull-panel {
+	display: none; /* hide at page loading */
 	position: fixed;
 	right: 0;
 	top: 75%;
+	padding-right: 30px;
+	background-color: #4eae32;
 }
 
 

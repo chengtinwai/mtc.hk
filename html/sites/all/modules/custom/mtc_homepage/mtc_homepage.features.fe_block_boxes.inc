@@ -11,6 +11,17 @@ function mtc_homepage_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Feedback block slider';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'feedback_block';
+  $fe_block_boxes->body = '<p>Whatsapp 123123</p>
+
+<p>QR code</p>
+';
+
+  $export['feedback_block'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Homepage intro';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'homepage_intro';
