@@ -110,7 +110,7 @@ audio:not([controls]) {
  */
 html {
   /*font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;*/ /* 1 */
-  font-family: 'Open Sans', sans-serif;
+  font-family: Helvetica, 'Open Sans', sans-serif;
 
   /* Delete all but one of the following font-size declarations: */
 
