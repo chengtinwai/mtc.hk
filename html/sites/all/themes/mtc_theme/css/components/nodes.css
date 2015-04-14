@@ -3,6 +3,7 @@
  */
 
 /* front */
+/* product listing */
 /* product detail */
 
 /* media queries */
@@ -23,6 +24,20 @@
 	
 }
 
+
+
+
+/* ==================== */
+/* product listing */
+/* ==================== */
+
+.view-product-listing {
+	text-align: center;
+}
+
+.view-product-listing .views-row {
+	margin-bottom: 15px;
+}
 
 
 /* ==================== */
@@ -71,5 +86,14 @@
 	.node-type-product .page__title {
 		font-size: 36px;
 	}	
+
+
+	/* product listing */
+
+	.view-product-listing .views-row {
+		display: inline-block;
+		width: 33%;
+	}
+
 	
 }

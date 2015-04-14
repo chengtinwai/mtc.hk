@@ -39,6 +39,10 @@
 	clear: none;
 }
 
+#header {
+	background-color: #fff;
+}
+
 #main {
 	background: transparent url(../../images/bg-gradient.jpg) center top no-repeat;
 	background-size: 100% auto;
