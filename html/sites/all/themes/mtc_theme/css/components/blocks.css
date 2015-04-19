@@ -71,7 +71,7 @@
 /* ==================== */
 
 .block-pull-panel {
-	display: none; /* hide at page loading */
+	/*display: none;*/ /* hide at page loading */
 	position: fixed;
 	right: 0;
 	top: 75%;
