@@ -45,6 +45,39 @@ function mtc_homepage_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-homepage_intro'] = array(
+    'cache' => -1,
+    'css_class' => 'block-home-intro',
+    'custom' => 0,
+    'machine_name' => 'homepage_intro',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'mtc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'mtc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['search-form'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -146,7 +179,7 @@ function mtc_homepage_default_fe_block_settings() {
 
   $export['views-frontpage_slideshow-block_1'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'block-front-slider',
     'custom' => 0,
     'delta' => 'frontpage_slideshow-block_1',
     'module' => 'views',

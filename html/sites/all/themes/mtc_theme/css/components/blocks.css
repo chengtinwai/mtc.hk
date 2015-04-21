@@ -5,6 +5,7 @@
 
 /* home slider */
 /* front product/services */
+/* home intro */
 /* contact pull */
 /* footer menu */
 
@@ -45,6 +46,14 @@
 	background-position: center center;
 }
 
+.flex-control-nav {
+	display: none;
+}
+
+.block-front-slider {
+	margin: 0;
+}
+
 
 /* ==================== */
 /* front product/services */
@@ -63,6 +72,29 @@
 	font-size: 24px;
 }
 
+
+
+
+/* ==================== */
+/* home intro */
+/* ==================== */
+
+.block-home-intro {
+	overflow: hidden;
+	margin: 0 -10px 15px;
+	background: #184e79 url(../../images/bg-about.jpg) center center no-repeat;
+}
+
+.block-home-intro .block-inner {
+	overflow: hidden;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.33em;
+	margin-top: 20px;
+	padding: 75px 15px 0;
+	background: transparent url(../../images/icon-circle-white.png) center top no-repeat;
+}
 
 
 
@@ -129,6 +161,15 @@
 	.block-front-product .views-field-field-image {
 		float: left;
 		margin-right: 40px;
+	}
+
+	.block-home-intro .block-inner {
+		font-size: 18px;
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 105px 40px 30px;
+		background-position: center 30px;
 	}
 	
 	/* footer */
