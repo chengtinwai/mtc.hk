@@ -103,12 +103,23 @@
 /* ==================== */
 
 .block-pull-panel {
-	/*display: none;*/ /* hide at page loading */
+	display: none; /* hide at page loading */
 	position: fixed;
 	right: 0;
 	top: 75%;
 	padding-right: 30px;
 	background-color: #4eae32;
+}
+
+.feedback_simple-right {
+	text-indent: -9999px;
+	width: 67px !important;
+	height: 87px !important;
+	background: transparent url(../../images/button-contact.png) 0 0 no-repeat;
+}
+
+.feedback_simple-right.active {
+	right: 229px;
 }
 
 
