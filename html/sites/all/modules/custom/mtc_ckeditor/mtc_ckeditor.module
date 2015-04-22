@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ckeditor feature.
+ */
+
+include_once 'mtc_ckeditor.features.inc';
