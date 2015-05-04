@@ -32,9 +32,9 @@ function mtc_main_menu_context_default_contexts() {
           'region' => 'header',
           'weight' => '-10',
         ),
-        'search-form' => array(
-          'module' => 'search',
-          'delta' => 'form',
+        'block-6' => array(
+          'module' => 'block',
+          'delta' => '6',
           'region' => 'header',
           'weight' => '-9',
         ),
