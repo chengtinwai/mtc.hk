@@ -47,7 +47,7 @@ function mtc_main_menu_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: main-menu_dermafiller:taxonomy/term/1
@@ -67,7 +67,7 @@ function mtc_main_menu_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -45,
     'customized' => 1,
   );
   // Exported menu link: main-menu_home:<front>
@@ -80,7 +80,7 @@ function mtc_main_menu_menu_default_menu_links() {
       'identifier' => 'main-menu_home:<front>',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -104,7 +104,7 @@ function mtc_main_menu_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -44,
     'customized' => 1,
   );
   // Translatables

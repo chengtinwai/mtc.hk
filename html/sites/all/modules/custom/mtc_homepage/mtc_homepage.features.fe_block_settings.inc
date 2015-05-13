@@ -177,6 +177,72 @@ function mtc_homepage_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-26c51822241d1958ea8a91e7c3cdebe3'] = array(
+    'cache' => -1,
+    'css_class' => 'block-front-product',
+    'custom' => 0,
+    'delta' => '26c51822241d1958ea8a91e7c3cdebe3',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'mtc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'mtc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-c0ffe394d9692830e16635df3d1c6b69'] = array(
+    'cache' => -1,
+    'css_class' => 'block-front-services',
+    'custom' => 0,
+    'delta' => 'c0ffe394d9692830e16635df3d1c6b69',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'mtc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'mtc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-frontpage_slideshow-block_1'] = array(
     'cache' => -1,
     'css_class' => 'block-front-slider',
