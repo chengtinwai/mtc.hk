@@ -29,6 +29,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_consultancy:node/10
   $menu_links['main-menu_consultancy:node/10'] = array(
@@ -46,6 +48,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_contact-us:node/12
   $menu_links['main-menu_contact-us:node/12'] = array(
@@ -55,6 +59,7 @@ function mtc_main_menu_menu_default_menu_links() {
     'link_title' => 'Contact Us',
     'options' => array(
       'identifier' => 'main-menu_contact-us:node/12',
+      'node_type' => 'article',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -63,6 +68,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -43,
     'customized' => 1,
+    'language' => 'en',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_cosmetics:taxonomy/term/2
   $menu_links['main-menu_cosmetics:taxonomy/term/2'] = array(
@@ -83,6 +90,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_crm:node/11
   $menu_links['main-menu_crm:node/11'] = array(
@@ -100,6 +109,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -46,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_dermafiller:taxonomy/term/1
   $menu_links['main-menu_dermafiller:taxonomy/term/1'] = array(
@@ -120,6 +131,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -45,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_home:<front>
   $menu_links['main-menu_home:<front>'] = array(
@@ -137,6 +150,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Exported menu link: main-menu_lasers:taxonomy/term/3
   $menu_links['main-menu_lasers:taxonomy/term/3'] = array(
@@ -157,6 +172,8 @@ function mtc_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -44,
     'customized' => 1,
+    'language' => 'und',
+    'menu_links_customized' => 1,
   );
   // Translatables
   // Included for use with string extractors like potx.

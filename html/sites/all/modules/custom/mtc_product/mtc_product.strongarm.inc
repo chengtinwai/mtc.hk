@@ -96,10 +96,40 @@ function mtc_product_strongarm() {
           'weight' => '5',
         ),
       ),
-      'display' => array(),
+      'display' => array(
+        'language' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => FALSE,
+          ),
+        ),
+      ),
     ),
   );
   $export['field_bundle_settings_node__product'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'i18n_node_extended_product';
+  $strongarm->value = '4';
+  $export['i18n_node_extended_product'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'i18n_node_options_product';
+  $strongarm->value = array(
+    0 => 'current',
+  );
+  $export['i18n_node_options_product'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'language_content_type_product';
+  $strongarm->value = '2';
+  $export['language_content_type_product'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

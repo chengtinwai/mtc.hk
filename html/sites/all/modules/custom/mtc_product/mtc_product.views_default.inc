@@ -104,6 +104,26 @@ function mtc_product_views_default_views() {
     'default' => 0,
     'page' => 0,
   );
+  $translatables['clone_of_taxonomy_term'] = array(
+    t('Master'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('All'),
+    t('%1'),
+    t('Page'),
+    t('Feed'),
+  );
   $export['clone_of_taxonomy_term'] = $view;
 
   return $export;
